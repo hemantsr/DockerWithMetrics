@@ -1,13 +1,13 @@
-#How to build jar 
+# How to build jar 
 ./mvnw package 
 
-#How to install docker 
+# How to install docker 
 https://docs.docker.com/engine/install/
 
-#How to build docker image
+# How to build docker image
 docker build -f Dockerfile -t dockerwithmetrics .
 
-#How to check existing docker images 
+# How to check existing docker images 
 docker images
 
 # How to run docker image
